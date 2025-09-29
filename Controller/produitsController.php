@@ -12,7 +12,8 @@ foreach ($products as $p) {
     echo '<p>Prix : ' . htmlspecialchars($p['prix']) . ' €</p>';
     echo '<img src="' . htmlspecialchars($p['photo']) . '" style="max-width:300px;">';
     echo '<p>' . htmlspecialchars($p['description']) . '</p>';
-    echo '<button><a href="index.php?page=commander">Commander</a></button>';
+    echo '<button><a href="index.php?page=commander">Commander</a></button><br>';
+    echo '<button><a href="index.php?page=pageProduit&id='.$p['id'].'">En savoir plus</a></button>';
     echo '</div><br><hr>';
 }
 

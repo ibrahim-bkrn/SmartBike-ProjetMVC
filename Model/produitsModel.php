@@ -1,6 +1,7 @@
 <?php
 
-include "bdd.php";
+include_once "bdd.php";
+
 
 function getAllProducts() {
     $bdd = BDD();

@@ -18,6 +18,9 @@ switch ($page) {
     case 'contact':
         include "View/contact.php";
         break;
+    case 'pageProduit':
+        include "pageProduitController.php";
+        break;
 }
 
 ?>
