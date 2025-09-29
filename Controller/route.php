@@ -15,6 +15,9 @@ switch ($page) {
     case 'commander':
         include "View/commander.php";
         break;
+    case 'contact':
+        include "View/contact.php";
+        break;
 }
 
 ?>
