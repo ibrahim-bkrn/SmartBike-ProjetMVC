@@ -6,6 +6,9 @@ switch ($page) {
     case '':
         include "View/acceuil.php";
         break;
+    case 'contact':
+        include "View/contact.php";
+        break;
     
 }
 
