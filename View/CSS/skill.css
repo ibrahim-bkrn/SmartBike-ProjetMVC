@@ -1,0 +1,85 @@
+/* HEADER */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex; /* pour aligner logo + nav */
+    justify-content: space-between; /* logo à gauche, menu à droite */
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 30px;
+}
+
+header img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    
+}
+
+h1{
+    display: flex;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    
+}
+
+
+section p {
+    display: flex;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: #333;
+    
+}
+
+button {
+    display: flex;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+    
+}
